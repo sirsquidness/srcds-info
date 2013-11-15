@@ -21,7 +21,7 @@ var srcds = require('srcds-info');
 
 client = srcds('27.50.71.3', 21045);
 
-client.info('203.217.24.85', 27017, function(err, info) {
+client.info(function(err, info) {
 	if (err) {
         	console.error(err)
 	}
